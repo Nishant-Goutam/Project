@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Item = (props) => {
-    const dragStart = e => {
+    const dragStart = e =>{
         const target = e.target;
         e.dataTransfer.setData('id', target.id)
 
