@@ -4,6 +4,7 @@ const Item = (props) => {
     const dragStart = e =>{
         const target = e.target;
         e.dataTransfer.setData('id', target.id)
+        
 
         setTimeout(() => {
             target.style.display = "none";
