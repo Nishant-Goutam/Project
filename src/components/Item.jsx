@@ -13,6 +13,7 @@ const Item = (props) => {
 
     const dragOver = e => {
         e.stopPropagation();
+        console.log()
 
     }
     return (
