@@ -13,7 +13,7 @@ const Item = (props) => {
 
     const dragOver = e => {
         e.stopPropagation();
-        
+        console.log()
 
     }
     return (
@@ -26,6 +26,7 @@ const Item = (props) => {
         >
             {props.children}
         </div>
+        // <h1>helllo</h1>
     )
 }
 
